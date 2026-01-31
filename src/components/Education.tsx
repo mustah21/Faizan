@@ -20,10 +20,10 @@ const education = [
 
 const certifications = [
   {
-    title: "Directors Training Program (DTP)",
-    issuer: "ICAP (SECP-approved)",
+    title: "Directors Training Program",
+    issuer: "Institute of Chartered Accountants of Pakistan (ICAP)",
     description:
-      "Corporate governance best practices, relevant regulations, Listed Companies Code 2019 & Public Sector Rules 2013, and financial/strategic management.",
+      "Corporate governance best practices, relevant regulations, Listed Companies Code 2019 & Public Sector Rules 2013, and financial/strategic management. (2025)",
   },
 ];
 

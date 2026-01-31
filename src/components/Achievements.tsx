@@ -4,21 +4,21 @@ import { Trophy, BookOpen, Users, Scale } from "lucide-react";
 const achievements = [
   {
     icon: Scale,
-    title: "E-Procurement Implementation",
+    title: "Led Major PPP Project",
     description:
-      "Successfully led the implementation of an electronic procurement system in Punjab to enhance transparency and integrity in the procurement system.",
+      "Spearheaded the legal framework for a public-private partnership to establish a large-scale water treatment plant on the Ravi River, including drafting complex agreements and ensuring regulatory compliance.",
   },
   {
     icon: BookOpen,
     title: "Professor of Law",
     description:
-      "Taught programs of Liverpool John Moors University and University of London Program and Pakistani Law at prestigious law schools in Pakistan including Beaconhouse International College and University of Lahore.",
+      "Taught programs of Liverpool John Moors University and University of London at prestigious law schools in Pakistan including Beaconhouse International College and University of Lahore.",
   },
   {
     icon: Users,
-    title: "Member Editorial Board",
+    title: "GCC Legal Experience",
     description:
-      "Served on the editorial board of The Advocate Post, an international magazine published in over 20 countries. Reviewed articles for substantive accuracy, style, and format.",
+      "Collaborated on government initiatives in Saudi Arabia and UAE, including SaaS-based parking app development and advising the Ministry of Commerce on attracting foreign investment.",
   },
   {
     icon: Trophy,

@@ -41,7 +41,7 @@ const Contact = () => {
             </motion.a>
 
             <motion.a
-              href="https://www.linkedin.com/in/muhammad-faizan111"
+              href="https://www.linkedin.com/in/mfaizan111"
               target="_blank"
               rel="noopener noreferrer"
               initial={{ opacity: 0, y: 20 }}
