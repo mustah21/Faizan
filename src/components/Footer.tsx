@@ -10,7 +10,7 @@ const Footer = () => {
               Muhammad <span className="text-accent">Faizan</span>
             </p>
             <p className="text-muted-foreground text-sm mt-1">
-              Partner at Silverline Law Chambers
+              Senior Legal Counsel | Corporate, Commercial & Regulatory
             </p>
           </div>
 
@@ -22,7 +22,7 @@ const Footer = () => {
               <Mail className="w-5 h-5" />
             </a>
             <a
-              href="https://www.linkedin.com/in/muhammad-faizan111"
+              href="https://www.linkedin.com/in/mfaizan111"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-accent transition-colors"

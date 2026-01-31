@@ -26,7 +26,7 @@ const Hero = () => {
               transition={{ delay: 0.2 }}
               className="text-accent font-medium tracking-widest uppercase text-sm mb-4"
             >
-              Partner at Silverline Law Chambers
+              Senior Legal Counsel
             </motion.p>
             
             <motion.h1
@@ -45,9 +45,9 @@ const Hero = () => {
               transition={{ delay: 0.4, duration: 0.6 }}
               className="text-lg text-muted-foreground leading-relaxed mb-8 max-w-xl"
             >
-              Experienced commercial and disputes lawyer with demonstrated history of delivering 
-              effective legal solutions that drive business success. Specializing in corporate law, 
-              international transactions, and civil litigation.
+              A highly accomplished legal counsel with 10+ years of experience specializing in 
+              commercial and corporate law. Proven track record in M&A, joint ventures, contract 
+              negotiations, and regulatory compliance across Pakistan, Saudi Arabia, and UAE.
             </motion.p>
             
             <motion.div
@@ -64,7 +64,7 @@ const Hero = () => {
                 <span>Muhammadfaizan520@gmail.com</span>
               </a>
               <a
-                href="https://www.linkedin.com/in/muhammad-faizan111"
+                href="https://www.linkedin.com/in/mfaizan111"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-muted-foreground hover:text-accent transition-colors"
