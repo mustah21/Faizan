@@ -1,0 +1,162 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap');
+
+/* Navy Blue Professional Law Portfolio Design System */
+
+@layer base {
+  :root {
+    /* Navy Blue Theme */
+    --background: 220 30% 6%;
+    --foreground: 210 20% 95%;
+
+    --card: 220 25% 10%;
+    --card-foreground: 210 20% 95%;
+
+    --popover: 220 25% 10%;
+    --popover-foreground: 210 20% 95%;
+
+    /* Deep Navy Primary */
+    --primary: 220 60% 25%;
+    --primary-foreground: 210 20% 98%;
+
+    /* Elegant Gold Accent */
+    --secondary: 38 70% 50%;
+    --secondary-foreground: 220 30% 6%;
+
+    --muted: 220 20% 15%;
+    --muted-foreground: 210 15% 60%;
+
+    /* Gold Accent */
+    --accent: 38 70% 50%;
+    --accent-foreground: 220 30% 6%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 220 20% 18%;
+    --input: 220 20% 18%;
+    --ring: 38 70% 50%;
+
+    --radius: 0.5rem;
+
+    /* Custom Colors */
+    --navy-900: 220 40% 8%;
+    --navy-800: 220 35% 12%;
+    --navy-700: 220 30% 18%;
+    --navy-600: 220 28% 25%;
+    --navy-500: 220 25% 35%;
+    --gold: 38 70% 50%;
+    --gold-light: 38 60% 65%;
+    --cream: 40 30% 95%;
+
+    /* Gradients */
+    --gradient-navy: linear-gradient(135deg, hsl(220 40% 8%) 0%, hsl(220 35% 15%) 100%);
+    --gradient-gold: linear-gradient(135deg, hsl(38 70% 50%) 0%, hsl(38 60% 65%) 100%);
+    --gradient-hero: linear-gradient(180deg, hsl(220 40% 8%) 0%, hsl(220 35% 12%) 50%, hsl(220 30% 15%) 100%);
+
+    /* Shadows */
+    --shadow-elegant: 0 10px 40px -10px hsl(220 40% 5% / 0.5);
+    --shadow-card: 0 4px 20px -5px hsl(220 40% 5% / 0.4);
+    --shadow-gold: 0 4px 20px -5px hsl(38 70% 50% / 0.3);
+
+    --sidebar-background: 220 35% 10%;
+    --sidebar-foreground: 210 20% 95%;
+    --sidebar-primary: 38 70% 50%;
+    --sidebar-primary-foreground: 220 30% 6%;
+    --sidebar-accent: 220 25% 15%;
+    --sidebar-accent-foreground: 210 20% 95%;
+    --sidebar-border: 220 20% 18%;
+    --sidebar-ring: 38 70% 50%;
+  }
+
+  .dark {
+    --background: 220 30% 6%;
+    --foreground: 210 20% 95%;
+    --card: 220 25% 10%;
+    --card-foreground: 210 20% 95%;
+    --popover: 220 25% 10%;
+    --popover-foreground: 210 20% 95%;
+    --primary: 220 60% 25%;
+    --primary-foreground: 210 20% 98%;
+    --secondary: 38 70% 50%;
+    --secondary-foreground: 220 30% 6%;
+    --muted: 220 20% 15%;
+    --muted-foreground: 210 15% 60%;
+    --accent: 38 70% 50%;
+    --accent-foreground: 220 30% 6%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 220 20% 18%;
+    --input: 220 20% 18%;
+    --ring: 38 70% 50%;
+    --sidebar-background: 220 35% 10%;
+    --sidebar-foreground: 210 20% 95%;
+    --sidebar-primary: 38 70% 50%;
+    --sidebar-primary-foreground: 220 30% 6%;
+    --sidebar-accent: 220 25% 15%;
+    --sidebar-accent-foreground: 210 20% 95%;
+    --sidebar-border: 220 20% 18%;
+    --sidebar-ring: 38 70% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-family: 'Inter', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+  }
+}
+
+@layer components {
+  .text-gradient-gold {
+    @apply bg-clip-text text-transparent;
+    background-image: linear-gradient(135deg, hsl(38 70% 50%) 0%, hsl(38 60% 65%) 100%);
+  }
+
+  .bg-navy-gradient {
+    background: linear-gradient(180deg, hsl(220 40% 8%) 0%, hsl(220 35% 12%) 50%, hsl(220 30% 15%) 100%);
+  }
+
+  .border-gold {
+    border-color: hsl(38 70% 50%);
+  }
+
+  .section-divider {
+    @apply w-20 h-0.5 mx-auto;
+    background: linear-gradient(90deg, transparent, hsl(38 70% 50%), transparent);
+  }
+
+  .card-elegant {
+    @apply bg-card border border-border rounded-lg;
+    box-shadow: var(--shadow-card);
+  }
+
+  .gold-underline {
+    position: relative;
+  }
+
+  .gold-underline::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 60px;
+    height: 2px;
+    background: linear-gradient(90deg, hsl(38 70% 50%), transparent);
+  }
+}
